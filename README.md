@@ -38,9 +38,9 @@ For further details, please refer to the [cmake documentation website](https://c
 
 We have in this project two batches of tests: 24 unit tests for the `sc::list` class, and 9 unit tests for the `sc::list::iterator` class, and 22 tests for the utility operations. You should try to get passed all these tests.
 
-## Compiling withou cmake
+## Compiling without cmake
 
-If you wish to compile this project without the cmake, create the `build` folder manually (`mkdir build`), then try to run the command below from the source folder:
+If you wish to compile this project without the cmake, create the `build` folder manually (`mkdir build`), then try to run the command below:
 
 ```
 g++ -Wall -std=c++11 -I source/include -I source/tests/tm source/tests/main.cpp source/tests/tm/test_manager.cpp -o build/all_tests
